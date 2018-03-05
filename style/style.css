@@ -79,6 +79,17 @@ nav {
 }
 
 .image-border {
-    border: 5px solid #ef7f1a;
+    border: 5px solid white;
     border-radius: 0 15px;
+}
+
+a {
+    color: #ef7f1a;
+}
+
+.footer-text{
+    font-size: 22px;
+    padding: 15px 0;
+    background: #434343;
+    color: white;
 }
