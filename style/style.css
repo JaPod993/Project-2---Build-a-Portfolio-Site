@@ -45,10 +45,8 @@ nav {
     padding-top: 85px;
 }
 
-.section-video-text {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #DDD;
+.section-content {
+    border: 1px solid #DDD;
     background-color: #EEE;
     padding: 40px 0;
     text-align: center;
@@ -68,4 +66,19 @@ nav {
 
 .portfolio-item {
     padding-bottom: 30px;
+}
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.portfolio-title {
+    font-size: 22px;
+    padding: 10px 0 5px 0;
+    margin: 0;
+}
+
+.image-border {
+    border: 5px solid #ef7f1a;
+    border-radius: 0 15px;
 }
