@@ -1,0 +1,71 @@
+body {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.nav-wrapper {
+    float: right;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.second-header {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ef7f1a;
+    font-weight: 700;
+    float: right;
+}
+
+nav {
+    background: white;
+}
+
+.photo-banner {
+    text-align: center;
+    background: url('../images/contact1.jpg') fixed 60% 0;
+    height: 300px;
+}
+
+.header-top,
+.header-bottom {
+    font-size: 40px;
+    color: white;
+    text-shadow: -1px 1px 2px #31323A;
+    font-weight: 700;
+}
+
+.header-top {
+    padding-top: 85px;
+}
+
+.section-video-text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #DDD;
+    background-color: #EEE;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.color-orange {
+    color: #ef7f1a;
+}
+
+.about-me {
+    text-align: center;
+    font-size: 24px;
+    color: #434343;
+    line-height: 40px;
+    margin: 30px 10px;
+}
+
+.portfolio-item {
+    padding-bottom: 30px;
+}
