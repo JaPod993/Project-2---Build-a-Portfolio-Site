@@ -31,6 +31,7 @@ nav {
     text-align: center;
     background: url('../images/contact1.jpg') fixed 60% 0;
     height: 300px;
+    overflow: hidden;
 }
 
 .header-top,
@@ -102,7 +103,7 @@ a {
 }
 
 .contact-title {
-    font-size: 32px;
+    font-size: 30px;
     color: #212529;
 }
 
@@ -116,14 +117,20 @@ a {
 .list-wraper {
     background: #ef7f1a;
     padding: 30px 0;
+    text-align: center;
 }
+
 .social-media-list {
-    margin: 0 15px 0 0!important;
+    margin: 0 15px 0 0 !important;
     padding: 0;
 }
 
 .social-media-list li {
     display: inline;
+}
+
+.social-title {
+    font-size: 30px;
 }
 
 .social-media-list li a {
@@ -154,4 +161,51 @@ a {
     color: #ef7f1a;
     line-height: 48px;
     transition: all 0.2s ease-in-out;
+}
+
+.social-title {
+    color: white;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact-info {
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
+    .about-me {
+        font-size: 22px;
+    }
+
+    .social-title,
+    .contact-title,
+    .section-title {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-info {
+        padding-bottom: 15px;
+    }
+
+    .header-top,
+    .header-bottom {
+        font-size: 36px;
+    }
+
+    .header-top {
+        padding-top: 100px;
+    }
+
+    .contact-info,
+    .about-me {
+        font-size: 20px;
+    }
+
+    .social-title,
+    .contact-title,
+    .section-title {
+        font-size: 24px;
+    }
 }
